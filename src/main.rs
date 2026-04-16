@@ -59,6 +59,11 @@ fn main() {
                 "cmd" => banner(Banners::CMD),
                 "arch" => banner(Banners::Arch),
                 "ubuntu" => banner(Banners::Ubuntu),
+                "win11" => banner(Banners::Win11),
+                "win10" => banner(Banners::Win10),
+                "win8" => banner(Banners::Win8),
+                "win7" => banner(Banners::Win7),
+                "apple" => banner(Banners::MacOS),
                 "debian" | "dash" => banner(Banners::Debian), // У dash shell нету официального логотипа поэтому можно использовать debian
                 "macos" => banner(Banners::MacOS),
                 "intel" => banner(Banners::INTEL),
